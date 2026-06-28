@@ -12,6 +12,11 @@ def divide(a, b):
         return "Cannot divide by zero"
     return a / b
 
+def china(a, b):
+    if b == 0:
+        return "Cannot divide by zero"
+    return a / b
+
 if __name__ == "__main__":
     x = 20
     y = 5
