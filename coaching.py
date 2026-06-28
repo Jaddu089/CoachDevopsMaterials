@@ -12,23 +12,10 @@ def divide(a, b):
         return "Cannot divide by zero"
     return a / b
 
-def read_file(filename):
-    try:
-        with open(filename, "r") as file:
-            print(file.read())
-    except FileNotFoundError:
-        print("File not found.")
-
-
-def read_file(filename):
-    try:
-        with open(filename, "r") as file:
-            print(file.read())
-    except FileNotFoundError:
-        print("File not found.")
-
-if __name__ == "__main__":
-    read_file("sample.txt")
+def chinna(a, b):
+    if b == 0:
+        return "Cannot divide by zero"
+    return a / b
 
 if __name__ == "__main__":
     x = 20
