@@ -20,6 +20,13 @@ def read_file(filename):
         print("File not found.")
 
 
+def read_file(filename):
+    try:
+        with open(filename, "r") as file:
+            print(file.read())
+    except FileNotFoundError:
+        print("File not found.")
+
 if __name__ == "__main__":
     read_file("sample.txt")
 
