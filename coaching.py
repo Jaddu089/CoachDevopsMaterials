@@ -34,6 +34,10 @@ if __name__ == "__main__":
     x = 20
     y = 5
 
+def function_name(parameters):
+    # code block
+    return result
+
     print("Addition:", add(x, y))
     print("Subtraction:", subtract(x, y))
     print("Multiplication:", multiply(x, y))
