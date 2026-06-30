@@ -1,0 +1,22 @@
+application:
+  name: grafana-logging
+  version: "1.0.0"
+
+server:
+  host: localhost
+  port: 8080
+
+database:
+  host: localhost
+  port: 5432
+  username: admin
+  password: admin123
+  database: grafana_db
+
+logging:
+  level: INFO
+  file: logs/app.log
+
+environment:
+  name: development
+  debug: true
